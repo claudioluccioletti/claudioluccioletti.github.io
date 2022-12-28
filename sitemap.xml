@@ -31,5 +31,11 @@
   </url><url>
     <loc>https://claudioluccioletti.github.io/tags/</loc>
     <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://claudioluccioletti.github.io/work_in_progress/wip/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://claudioluccioletti.github.io/work_in_progress/</loc>
+    <changefreq>weekly</changefreq>
   </url>
 </urlset>
