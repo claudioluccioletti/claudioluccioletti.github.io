@@ -212,7 +212,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.f28ea3b77b4e3666a6f5bcd0facc3149.css" />
+  <link rel="stylesheet" href="/css/wowchemy.e81b008e8f2652a247a789886bf0296a.css" />
 
   
   
@@ -356,6 +356,17 @@
 
 
 
+
+  
+    
+      
+      
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+      
+    
+  
 
 
 
@@ -738,14 +749,8 @@
 
 
   
-    
-  
 
 
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/pdf/lmp_across_cities_draft.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
 
 
 
@@ -792,10 +797,31 @@
   <a class="btn btn-outline-primary btn-page-header btn-sm" href="/pdf/lmp_across_cities_cemfi_wp.pdf" >
     Working Paper</a>
 
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/pdf/lmp_across_cities_draft.pdf" >
+    Latest Version</a>
+
+    <a class="btn btn-outline-primary btn-page-header btn-sm summary">Abstract</a>
+
 </p>
 
   
-  
+<p class="details hide-details">This paper studies how household inequality shapes the effects of the zero lower bound (ZLB) on nominal interest rates on aggregate dynamics. To do so, we consider a heterogeneous agent New Keynesian (HANK) model with an occasionally binding ZLB and solve for its fully non-linear stochastic equilibrium using a novel neural network algorithm. In this setting, changes in the monetary policy stance influence households' precautionary savings by altering the frequency of ZLB events. As a result, the model features monetary policy non-neutrality in the long run. The degree of long-run non-neutrality, i.e., by how much monetary policy shifts real rates in the ergodic distribution of the model, can be substantial when we combine low inflation targets and high levels of wealth inequality.</p>
+	
+
 </div>
 
         </div>
@@ -1009,6 +1035,24 @@
 
 
 
+
+  
+    
+      
+      <script>
+
+$(".summary").click(function (event) {
+	$(this).closest("p").siblings(".details").toggleClass("hide-details");
+	$(this).html($(this).text() == 'Abstract' ? 'Hide Abstract' : 'Abstract');	
+	$(".summary").not(this).closest("p").siblings(".details").addClass("hide-details");   
+	$(".summary").not(this).text("Abstract");	
+}); 
+
+</script> 
+
+      
+    
+  
 
 
 

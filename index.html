@@ -228,7 +228,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.f28ea3b77b4e3666a6f5bcd0facc3149.css" />
+  <link rel="stylesheet" href="/css/wowchemy.e81b008e8f2652a247a789886bf0296a.css" />
 
   
   
@@ -388,6 +388,17 @@
 
 
 
+
+  
+    
+      
+      
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+      
+    
+  
 
 
 
@@ -1084,14 +1095,8 @@ Welcome to my website! I am an Economics PhD student at
 
 
   
-    
-  
 
 
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/pdf/lmp_across_cities_draft.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
 
 
 
@@ -1137,6 +1142,23 @@ Welcome to my website! I am an Economics PhD student at
   
   <a class="btn btn-outline-primary btn-page-header btn-sm" href="/pdf/lmp_across_cities_cemfi_wp.pdf" >
     Working Paper</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/pdf/lmp_across_cities_draft.pdf" >
+    Latest Version</a>
 
 </p>
 
@@ -1475,6 +1497,24 @@ Welcome to my website! I am an Economics PhD student at
 
 
 
+
+  
+    
+      
+      <script>
+
+$(".summary").click(function (event) {
+	$(this).closest("p").siblings(".details").toggleClass("hide-details");
+	$(this).html($(this).text() == 'Abstract' ? 'Hide Abstract' : 'Abstract');	
+	$(".summary").not(this).closest("p").siblings(".details").addClass("hide-details");   
+	$(".summary").not(this).text("Abstract");	
+}); 
+
+</script> 
+
+      
+    
+  
 
 
 

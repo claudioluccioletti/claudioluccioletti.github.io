@@ -212,7 +212,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.f28ea3b77b4e3666a6f5bcd0facc3149.css" />
+  <link rel="stylesheet" href="/css/wowchemy.e81b008e8f2652a247a789886bf0296a.css" />
 
   
   
@@ -355,6 +355,17 @@
 
 
 
+
+  
+    
+      
+      
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+      
+    
+  
 
 
 
@@ -1125,6 +1136,24 @@
 
 
 
+
+  
+    
+      
+      <script>
+
+$(".summary").click(function (event) {
+	$(this).closest("p").siblings(".details").toggleClass("hide-details");
+	$(this).html($(this).text() == 'Abstract' ? 'Hide Abstract' : 'Abstract');	
+	$(".summary").not(this).closest("p").siblings(".details").addClass("hide-details");   
+	$(".summary").not(this).text("Abstract");	
+}); 
+
+</script> 
+
+      
+    
+  
 
 
 
