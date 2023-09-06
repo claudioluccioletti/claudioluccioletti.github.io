@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Job Market Paper | Claudio Luccioletti</title>
+    <link>https://claudioluccioletti.github.io/jmp/</link>
+      <atom:link href="https://claudioluccioletti.github.io/jmp/index.xml" rel="self" type="application/rss+xml" />
+    <description>Job Market Paper</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://claudioluccioletti.github.io/media/icon_hu073158a3ee2ece043f6a706d5aa90be1_3761_512x512_fill_lanczos_center_3.png</url>
+      <title>Job Market Paper</title>
+      <link>https://claudioluccioletti.github.io/jmp/</link>
+    </image>
+    
+    <item>
+      <title>Job Market Paper</title>
+      <link>https://claudioluccioletti.github.io/jmp/wip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://claudioluccioletti.github.io/jmp/wip/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
