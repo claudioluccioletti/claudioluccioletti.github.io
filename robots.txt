@@ -1,3 +1,15 @@
 User-agent: *
+Disallow: /jmp/
+Disallow: /project/
+Disallow: /publication-type/
+Disallow: /publication_types/
+Disallow: /post/
+Disallow: /talk/
+Disallow: /event/
+Disallow: /tag/
+Disallow: /tags/
+Disallow: /category/
+Disallow: /categories/
+Disallow: /slides/
 
 Sitemap: https://claudioluccioletti.github.io/sitemap.xml
