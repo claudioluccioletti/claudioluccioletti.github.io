@@ -11,5 +11,7 @@ Disallow: /tags/
 Disallow: /category/
 Disallow: /categories/
 Disallow: /slides/
+Disallow: /work_in_progress/
+Disallow: /publication/
 
 Sitemap: https://claudioluccioletti.github.io/sitemap.xml
