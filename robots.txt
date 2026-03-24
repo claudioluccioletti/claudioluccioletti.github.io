@@ -3,6 +3,7 @@ Disallow: /jmp/
 Disallow: /project/
 Disallow: /publication-type/
 Disallow: /publication_types/
+Disallow: /publication/
 Disallow: /post/
 Disallow: /talk/
 Disallow: /event/
@@ -12,6 +13,17 @@ Disallow: /category/
 Disallow: /categories/
 Disallow: /slides/
 Disallow: /work_in_progress/
-Disallow: /publication/
+Disallow: /admin/
+Disallow: /authors/
+Disallow: /en/
+Disallow: /privacy/
+Disallow: /terms/
+Disallow: /media/
+Disallow: /uploads/
+Disallow: /css/
+Disallow: /js/
+Disallow: /webfonts/
+Disallow: /pdf/
+Disallow: /cv/
 
 Sitemap: https://claudioluccioletti.github.io/sitemap.xml
